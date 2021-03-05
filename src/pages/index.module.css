@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.topBar .title {
+    margin-left: 10px;
+}
+
 .signInButton {
     text-decoration: none;
     color: rgb(22, 22, 22);
@@ -13,10 +17,44 @@
     border-radius: 25px;
     padding: 5px 40px;
     transition: 0.3s;
+    margin-right: 10px;
 }
 
 .signInButton:hover {
     color: white;
     background-color: black;
     border-color: black;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero .actions {
+    margin-top: 25px;
+}
+
+.hero .actions a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.hero .actions a:hover {
+    opacity: 1;
+}
+
+.more {
+    text-align: center;
 }
