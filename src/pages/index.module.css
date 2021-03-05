@@ -1,0 +1,22 @@
+.topBar {
+    max-width: 1024px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signInButton {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 25px;
+    padding: 5px 40px;
+    transition: 0.3s;
+}
+
+.signInButton:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
