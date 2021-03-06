@@ -25,9 +25,34 @@ const Home: FC = () => {
         </div>
       </div>
       <div className={styles.more}>
-        <a href="#">
+        <p>Need help?</p>
+        <a href="#contact">
           <i className="fas fa-chevron-down animate__animated animate__bounce animate__repeat-3"></i>
         </a>
+      </div>
+      <div id="contact" className={styles.contact}>
+        <h2>Contact</h2>
+        <p>Lets talk!</p>
+        <form>
+          <div className={styles.fluidInputs}>
+            <div>
+              <p>Name</p>
+              <input type="text" name="name" />
+            </div>
+            <div>
+              <p>Email</p>
+              <input type="email" name="email" />
+            </div>
+          </div>
+          <div>
+            <p>Message</p>
+            <textarea rows="10" name="message" />
+            <button>Send</button>
+          </div>
+        </form>
+      </div>
+      <div className={styles.footer}>
+        <p>Snap Trade © 2021 Todos os Direitos Reservados.</p>
       </div>
     </div>
   )
