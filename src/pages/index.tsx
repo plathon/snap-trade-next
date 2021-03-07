@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import Link from 'next/link'
 
 import styles from './index.module.css'
 
@@ -7,9 +8,9 @@ const Home: FC = () => {
     <div>
       <div className={styles.topBar}>
         <span className={styles.title}>SNAP TRADE</span>
-        <a className={styles.signInButton} href="#">
-          Sign In
-        </a>
+        <Link href="/signin">
+          <a className={styles.signInButton}>Sign In</a>
+        </Link>
       </div>
       <div className={styles.hero}>
         <div>
@@ -20,7 +21,9 @@ const Home: FC = () => {
             your strategies and validate your trade system
           </p>
           <div className={styles.actions}>
-            <a href="#">Sign Up Now!</a>
+            <Link href="/signup">
+              <a>Sign Up Now!</a>
+            </Link>
           </div>
         </div>
       </div>
