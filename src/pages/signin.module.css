@@ -1,0 +1,44 @@
+.signInPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.signInPage div {
+    flex-grow: 1;
+}
+
+.signInPage div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInPage div:nth-child(2) form div {
+    display: block;
+}
+
+.signInPage div:nth-child(2) form div input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 5px;
+}
+
+.signInPage div:nth-child(2) form button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    opacity: 0.9;
+    border: 0;
+}
+
+.backIcon {
+    color: black;
+    font-size: 40px;
+    margin-left: 10px;
+}
