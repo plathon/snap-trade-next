@@ -26,6 +26,10 @@ const Signin: FC = () => {
               <input type="password" name="password" />
             </div>
             <button>Log In</button>
+
+            <Link href="/signup">
+              <a>don&apos;t have a account yet?</a>
+            </Link>
           </form>
         </div>
       </div>
