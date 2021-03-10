@@ -13,7 +13,7 @@ const Signup: FC = () => {
       </Link>
       <div className={styles.signUpPage}>
         <div>
-          <h1>Sign Up Now for free! ;)</h1>
+          <h1>Sign Up now for free! ;)</h1>
         </div>
         <div>
           <form>
@@ -30,6 +30,10 @@ const Signup: FC = () => {
               <input type="password" name="password" />
             </div>
             <button>Register</button>
+
+            <Link href="/signin">
+              <a>already have a account?</a>
+            </Link>
           </form>
         </div>
       </div>
