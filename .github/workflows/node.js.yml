@@ -30,4 +30,5 @@ jobs:
       run: | 
         yarn 
         yarn test
+        yarn lint
 
