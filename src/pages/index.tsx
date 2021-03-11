@@ -49,13 +49,13 @@ const Home: FC = () => {
           </div>
           <div>
             <p>Message</p>
-            <textarea rows="10" name="message" />
+            <textarea rows={10} name="message" />
             <button>Send</button>
           </div>
         </form>
       </div>
       <div className={styles.footer}>
-        <p>Snap Trade © 2021 Todos os Direitos Reservados.</p>
+        <p>Snap Trade © 2021.</p>
       </div>
     </div>
   )
